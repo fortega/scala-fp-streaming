@@ -1,0 +1,13 @@
+version: "3.9"
+services:
+    rabbit:
+        image: "rabbitmq:3-management"
+        ports:
+        - "5672:5672"
+        - "15672:15672"
+    almond:
+        image: "almondsh/almond"
+        volumes:
+        - .:/home/jovyan/work
+        ports:
+        - "8888:8888"
