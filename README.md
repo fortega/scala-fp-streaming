@@ -15,7 +15,7 @@
 * los notebooks se encuentran en la carpeta work.
   * scala-fp-streaming: introduccion a la programacion funcional para procesar streaming.
   * rabbitmq-producer: productor (o publicador) basico para hacer pruebas en RabbitMQ. 
-  * akka-streams: esqueleto de aplicacion con akka-streams.
+  * akka-streams: subscriptor (o lector) de RabbitMQ con akka-streams.
 
 ### Abrir RabbitMQ Management UI
 * ingresar en http://127.0.0.1:15672/
