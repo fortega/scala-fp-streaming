@@ -1,8 +1,9 @@
-# Introduccion a la programacion funcional para procesamiento en streaming (usando scala + akka-streams)
+# Introduccion a la programacion funcional para procesamiento en streaming
+(usando [Scala](https://www.scala-lang.org) + [akka-streams](https://akka.io) + [RabbitMQ](https://www.rabbitmq.com/))
 
 ## Requerimientos
 * docker
-* docker-compose  
+* docker-compose
 
 ## Corriendo docker-composer
 
